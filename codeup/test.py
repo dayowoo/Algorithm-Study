@@ -1,3 +1,3 @@
-info = input()
-infoo= info.replace('-','')
-print(infoo)
+n = ord(input())
+print(n)
+print(chr(n+1))
