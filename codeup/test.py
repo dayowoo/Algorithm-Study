@@ -1,4 +1,7 @@
-a, b, c = input().split()
-sum = int(a)+int(b)+int(c)
-avg = float(sum/3,".3f")
-print(sum, avg)
+a = int(input())
+i=0
+s=0
+while s<a:
+    i+=1 
+    s+=i
+print(i)
