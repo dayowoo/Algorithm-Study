@@ -6,7 +6,7 @@
 
 def solution(s):
     answer = ''
-    new_list = s.split()
+    new_list = s.split(' ')
     for i in new_list:
         for j in range(len(i)):
             if j%2==0:
