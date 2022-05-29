@@ -5,7 +5,7 @@
 - /, %, divmod
 '''
 
-def solution(n):
+def sumDivisor(n):
     answer = []
     i = 1
     while True:
@@ -19,4 +19,4 @@ def solution(n):
     return sum(answer)
 
 
-print(solution(0))
+print(sumDivisor(0))
