@@ -1,12 +1,19 @@
-'''
-1. survey 리스트에서 n개의 문제를 골라낸다.
-2. 
-'''
 
-def solution(survey, choices):
-    answer = ''
-    return answer
 
-survey = ["RT", "TR", "FC", "CF", "MJ", "JM", "AN", "NA"]
+def draw1(h):
+    if(h==0):
+        return
+    draw1(h-1)
 
-choice = []
+    for i in range(h):
+        print("*")
+    print("\n")
+
+def draw2(h):
+    for o in range(h):
+        for i in range(o):
+            print("*")
+        print("\n")
+
+print(draw1(5))
+print(draw2(5))
