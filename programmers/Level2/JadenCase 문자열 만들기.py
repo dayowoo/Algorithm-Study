@@ -24,5 +24,6 @@ def solution(s):
         if not s[i][0].isdecimal():
             s[i]=s[i][0].upper()+s[i][1:].lower()
     answer=' '.join(s)
+    return answer
 
 print(solution("for the last week"))
